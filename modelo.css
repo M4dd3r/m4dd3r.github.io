@@ -86,6 +86,7 @@ main{
 .title:hover{
     cursor: pointer;
     transform: scale(1.05);
+    z-index: -1;
 }
 
 .voltar{
@@ -108,9 +109,9 @@ main{
 @media screen and (max-width: 460px) {
 
     body{
-        overflow-x: auto;  /* Deixa a rolagem horizontal automática, se necessário */
-        overflow-y: auto;  /* Garante que a rolagem vertical esteja ativada */
-        width: 100%;       /* Ajusta a largura para o tamanho normal */
+        overflow-x: auto;
+        overflow-y: auto;
+        width: 100%;
         white-space: normal;
     }
 
@@ -148,19 +149,26 @@ main{
         margin-left: 10px;
         margin-right: 0;
         width: 95%;
+        margin-bottom: 20px;
     }
 
     .discografia{
-            height: 100%;
-            width: 100%;
-            margin-left: auto;
-            background-color: transparent;
-            margin-top: 20px;
+        height: 100%;
+        width: 100%;
+        margin-left: auto;
+        background-color: transparent;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .info{
+        text-align: center;
     }
 
     .discografia iframe{
         height: 352px;
         width: 300px;
+        margin-bottom: 30px;
     }
     .ref{
         display: none;

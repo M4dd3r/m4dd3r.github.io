@@ -33,6 +33,7 @@ header{
 .title:hover{
     cursor: pointer;
     transform: scale(1.05);
+    z-index: -1;
 }
 
 .slogan{
@@ -360,6 +361,7 @@ main{
 
     .title:hover{
         transform: scale(1.05);
+        z-index: -1;
     }
 
 }
