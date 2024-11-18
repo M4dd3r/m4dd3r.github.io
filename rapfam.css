@@ -1,0 +1,130 @@
+main{
+    border: 0;
+    height: 100%;
+    width: 50%;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.title:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.rappers{
+    display: flex;
+    width: 100%;
+    flex: 1;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.foto{
+    flex: 25%;
+}
+
+.foto img{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.nomedesc{
+    flex: 75%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.nome{
+    font-family: 'Kosal says hy', sans-serif;
+    color: goldenrod;
+    font-size: 40px;
+    letter-spacing: 3px;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.desc{
+    font-family: 'Kosal says hy', sans-serif;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-align: justify;
+    width: 98%;
+}
+
+.rappers:hover{
+    background-color: rgba(0, 0, 0, 1);
+    cursor: pointer;
+    margin-left: 20px;
+    
+}
+
+.texto{
+    display: flex;
+    width: 100%;
+    flex: 1;
+    margin: 10px 10px 10px 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    font-family: 'Kosal says hy', sans-serif;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-align: justify;
+}
+
+@media screen and (max-width: 460px) {
+
+    main{
+        width: 80%;
+        height: 100%;
+        margin-top: 30px;
+    }
+
+
+    .rappers{
+        flex-direction: column;
+    }
+
+    .foto img{
+        margin: 10px 0 0 0;
+
+    }
+
+    .nomedesc{
+        margin-left: 10px;
+    }
+
+    .nome{
+        font-size: 30px;
+    }
+
+    .texto{
+        font-size: 20px;
+    }
+
+    .sloganmob{
+        height: 100%;
+    }
+
+    .title:hover{
+    transform: scale(1.05);
+    }
+
+    .rappers:hover{
+        transform: scale(1.05);
+        margin-left: 0;
+    }
+
+}

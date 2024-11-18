@@ -1,0 +1,173 @@
+body{
+        overflow-y: hidden;
+        white-space: nowrap;
+}
+
+
+main{
+    background-color: transparent;
+    border: 0;
+    width: 3700px;
+    height: 70vh;
+}
+
+.introducao{
+    width: 1500px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    margin-left: 20vh;
+    border-radius: 15px;
+    white-space: wrap;
+}
+
+.foto{
+    flex: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.foto img{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    border: 5px solid black;
+    background-size: cover;
+    background-position: center center;
+    margin-top: 20px;
+}
+
+.info{
+    font-size: 40px;
+    font-family: 'Kosal says hy', sans-serif;
+    color: white;
+    margin-top: 20px;
+    letter-spacing: 6px;
+}
+
+.ref{
+    font-size: 15px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+.inttxt{
+    flex: 70%;
+    font-size: 25px;
+    font-family:monospace;
+    color: white;
+    height: 100%;
+    text-align: justify;
+    margin-right: 20px;
+    display: flex;
+    letter-spacing: 1px;
+    margin-top: 40px;
+}
+
+.discografia{
+    width: 1500px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    margin-left: 20vh;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.title{
+    flex: 100%;
+    text-align: center;
+}
+
+.title:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.voltar{
+    font-size: 50px;
+    margin-left: 0;
+    width: fit-content;
+    flex: 0%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.voltar:hover{
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 460px) {
+
+    body{
+        overflow-x: auto;  /* Deixa a rolagem horizontal automática, se necessário */
+        overflow-y: auto;  /* Garante que a rolagem vertical esteja ativada */
+        width: 100%;       /* Ajusta a largura para o tamanho normal */
+        white-space: normal;
+    }
+
+    .voltar{
+        width: fit-content;
+    }
+
+
+    .title{
+        font-size: 55px;
+        font-family: 'DOCALLISME ON STREET', sans-serif;
+        color: black;
+        letter-spacing: 3px;
+        display: flex;
+        justify-content: center;
+    }
+
+    main{
+        flex-direction: column;
+        width: 80%;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+
+    .introducao{
+        width: 100%;
+        height: max-content;
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .inttxt{
+        font-size: 20px;
+        margin-left: 10px;
+        margin-right: 0;
+        width: 95%;
+    }
+
+    .discografia{
+            height: 100%;
+            width: 100%;
+            margin-left: auto;
+            background-color: transparent;
+            margin-top: 20px;
+    }
+
+    .discografia iframe{
+        height: 352px;
+        width: 300px;
+    }
+    .ref{
+        display: none;
+    }
+
+    .sloganmob{
+        height: 100%;
+    }
+
+}
