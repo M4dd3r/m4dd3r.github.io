@@ -180,7 +180,7 @@ main{
 
 }
 
-@media screen and (max-width: 1800px){
+@media screen and (max-width: 1800px) and (min-width:1500px){
 
     main{
         width: 3000px;
