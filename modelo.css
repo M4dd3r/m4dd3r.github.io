@@ -179,3 +179,38 @@ main{
     }
 
 }
+
+@media screen and (max-width: 1800px){
+
+    main{
+        width: 3000px;
+    }
+
+    .introducao{
+        width: 1200px;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        margin-left: 20vh;
+        border-radius: 15px;
+        white-space: wrap;
+        margin-bottom: 40px;
+    }
+
+    .inttxt{
+        font-size: 18px;
+    }
+
+    .info{
+        font-size: 20px;
+    }
+
+    .ref{
+        font-size: 10px;
+    }
+    
+    .discografia{
+        width: 1200px;
+        margin-bottom: 40px;
+    }
+}

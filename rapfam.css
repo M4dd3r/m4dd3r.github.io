@@ -7,9 +7,15 @@ main{
     background-color: transparent;
 }
 
+.title{
+    flex: 100%;
+    text-align: center;
+}
+
 .title:hover{
     cursor: pointer;
     transform: scale(1.05);
+    z-index: -1;
 }
 
 .rappers{
@@ -83,6 +89,24 @@ main{
     letter-spacing: 3px;
     text-align: justify;
 }
+
+.eng{
+    font-size: 20px;
+    margin-left: 0;
+    font-family: monospace;
+    width: fit-content;
+    flex: 0%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.eng:hover{
+    font-weight: bold;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
 
 @media screen and (max-width: 460px) {
 
