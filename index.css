@@ -69,7 +69,7 @@ main{
 }
 
 .imagem{
-    flex: 50%;
+    flex: 65%;
     width: 90%;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -81,7 +81,7 @@ main{
 
 
 .txt{
-    flex: 50%;
+    flex: 35%;
     width: 90%;
     margin-bottom: 20px;
     margin-top: 10px;
@@ -110,17 +110,14 @@ main{
 }
 
 
-
-
 .sobre{
-    color: goldenrod;
-    font-family: 'Kosal says hy', sans-serif;
+    color: #daa520;
+    font-family: monospace;
     width: 70%;
     height: 100%;
     margin-top: 100px;
     border-radius: 15px;
     font-size: 40px;
-    letter-spacing: 5px;
     text-align: justify;
     margin-bottom: 50px;
 }
@@ -181,7 +178,7 @@ main{
         width: 85%;
         height: 100%;
         margin-top: 60px;
-        
+        text-align: left;
     }
 
 

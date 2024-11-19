@@ -1,0 +1,72 @@
+main{
+    background-color: transparent;
+    border: 0;
+    height: 100%;
+    width: 70%;
+    flex-direction: column;
+}
+
+.subtitulo{
+    width: 100%;
+    margin-bottom: 100px;
+    margin-top: 80px;
+    color: white;
+    font-family: 'kosal says hy', sans-serif;
+    font-size: 70px;
+    display: flex;
+    letter-spacing: 2px;
+}
+
+.subsubtitulo{
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 80px;
+    color: white;
+    font-family: 'kosal says hy', sans-serif;
+    font-size: 45px;
+    display: flex;
+    letter-spacing: 2px;
+}
+
+.intro{
+    flex: 50%;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: white;
+    font-family: monospace;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+}
+
+.title:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+
+@media screen and (max-width:460px) {
+    
+    .subtitulo{
+        font-size: 45px;
+        margin-bottom: 50px;
+        margin-top: 40px;
+    }
+
+    .subsubtitulo{
+        font-size: 35px;
+        margin-top: 40px;
+        margin-bottom: 25px;
+    }
+
+    .intro{
+        font-size: 20px;
+    }
+
+    .title:hover{
+        cursor: pointer;
+        transform: scale(1.05);
+    }
+}
